@@ -10,4 +10,6 @@
     htmlString += '</ul>';
     document.getElementsById('test')[0].innerHTML = htmlString;
     console.log(htmlString);
-  })()
+  })();
+
+console.log("script run");
