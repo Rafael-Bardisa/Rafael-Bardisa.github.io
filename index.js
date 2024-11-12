@@ -8,7 +8,7 @@
     }
 
     htmlString += '</ul>';
-    document.getElementsById('test')[0].innerHTML = htmlString;
+    document.getElementById('test')[0].innerHTML = htmlString;
     console.log(htmlString);
   })();
 
